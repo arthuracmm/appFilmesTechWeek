@@ -13,7 +13,7 @@ export default function App(){
       <StatusBar backgroundColor='#000' barStyle='light-content' />
       <Stack.Navigator initialRouteName="Login">
         <Stack.Screen name="Login" component={LoginScreen} options={{ 
-          title: 'LOGIN DO USUÁRIO',
+          title: 'Login',
           headerTitleAlign: 'center',
           headerStyle:{ backgroundColor: "#210045" },
           headerTintColor: "#FFF",
@@ -21,7 +21,7 @@ export default function App(){
          }}/>
 
           <Stack.Screen name="Cadastro" component={CadastroScreen} options={{ 
-          title: 'CADASTRO DO USUÁRIO',
+          title: 'Cadastro',
           headerTitleAlign: 'center',
           headerStyle:{ backgroundColor: "#210045" },
           headerTintColor: "#FFF",
